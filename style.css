@@ -1,0 +1,68 @@
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+   font-family: sans-serif;
+   padding-top: 20px;
+}
+
+h1 {
+color: royalblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: column; /* Agar setiap item (p + tombol) ada di baris baru */
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antar elemen */
+}
+
+#text, #sumbit {
+    border: none;
+    font-size: 13px;
+}
+
+#sumbit {
+    background-color: royalblue;
+    color: white;
+    position: relative;
+    right:10px;
+}
+
+#text {
+    background-color: white !important;
+    color: yellowgreen !important;
+    border: none;
+    outline: none; /* Menghapus border highlight default */
+}
+
+.border {
+    border: solid;
+    color: royalblue;
+    border-width: 2px;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    background-color: black;
+    color: royalblue;
+    position: relative;
+    left: 200px;
+}
+.item {
+    position: relative;
+    right: 100px ;
+}
